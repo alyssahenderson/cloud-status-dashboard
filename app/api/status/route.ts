@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { fetchAllProviderStatuses, fetchProviderStatusesByCategory } from '@/lib/status';
-import { CACHE_REVALIDATE_SECONDS, PROVIDERS, PROVIDER_CATEGORIES } from '@/lib/status/constants';
+import { PROVIDERS, PROVIDER_CATEGORIES } from '@/lib/status/constants';
 import { createUnknownStatus } from '@/lib/status/normalize';
 import { ProviderCategory } from '@/lib/status/types';
 
